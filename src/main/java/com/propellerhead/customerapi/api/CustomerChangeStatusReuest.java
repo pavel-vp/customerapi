@@ -1,0 +1,13 @@
+package com.propellerhead.customerapi.api;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CustomerChangeStatusReuest {
+    private Long customerId;
+    private CustomerStatus newStatus;
+}
